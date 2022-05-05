@@ -1,0 +1,138 @@
+body{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+
+}
+.first_container{
+    background-color: #E4F9F5;
+    position: relative;
+    /* padding-bottom: 200px ; */
+    margin-bottom: 150px;
+    padding-top: 100px;
+}
+ h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:80px;
+    color:#66BFBF ;
+    margin: 50px auto 0 auto;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+h2 {
+    color:#66BFBF ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-bottom:10px ;
+}
+span{
+    text-decoration: underline;
+}
+
+.top-cloud{ 
+        position: absolute;
+        right: 300px;
+        top: 50px;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 300px;
+        bottom: 200px;
+    }
+
+    /* .profile{
+        background-color: rgba(143, 110, 110, 0.192);
+        
+    } */
+
+ .img-web{ 
+    width: 40%;
+}
+.profile p{
+    font-style: italic;
+    font-weight: bold;
+}
+hr{
+    border: 3px dotted #888d8d;
+    border-bottom: none;
+    border-width: 5px;
+    width: 3%;
+   margin: 100px auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left; 
+}
+#giphy2{
+    text-align: right;
+}
+
+.development-giphy{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+   
+}
+.laughing{
+    width: 23%;
+    float: right;
+    margin-left: 30px;
+    
+    
+    
+}
+.skill-row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+h3{
+    color: #11999E;
+    
+}
+.contact-me p{
+  width: 50%;
+  margin: 40px auto;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background-color: #11cdd4;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px 20px;
+   
+   
+}
+
+.bottom_container{
+    padding: 50px 0px 20px;
+    background-color:#66BFBF ;
+    margin-top: 100px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #11999E;
+    padding: 12px 24px;
+    margin-bottom: 8px;
+}
+.footer-link:hover{
+    color: #fff;
+}
+.bottom_container p {
+    color: #EAF6F6;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+
+   
+
+
+
+
+
